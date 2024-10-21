@@ -6,7 +6,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #0f0c29; /* Fallback color */
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-  color: #e0e0e0;
+  color: #ffffff; /* Changed for better contrast */
   line-height: 1.6;
   overflow-x: hidden;
 }
@@ -22,7 +22,7 @@ body {
 
 /* Enhanced Star Animations */
 @keyframes twinkle {
-  0%, 100% { opacity: 0.2; transform: scale(0.8); }
+  0%, 100% { opacity: 0.3; transform: scale(0.8); }
   50% { opacity: 1; transform: scale(1); }
 }
 
@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 0.5em;
-  color: #ffffff;
+  color: #fffae3; /* Lightened for better contrast */
 }
 
 h1 {
@@ -150,18 +150,18 @@ p {
 }
 
 a {
-  color: #64b5f6;
+  color: #76c7c0; /* Changed for better contrast */
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #2196f3;
+  color: #5c9b92; /* Darkened for hover state */
   text-decoration: underline;
 }
 
 .text-gradient {
-  background: linear-gradient(45deg, #64b5f6, #e57373);
+  background: linear-gradient(45deg, #76c7c0, #e57373);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -202,4 +202,12 @@ a:hover {
 @keyframes planetRotate {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+.text-purple-500 {
+  transition: opacity 0.5s ease-in-out;
+}
+/* Add this to your index.css */
+.shadow-3xl {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Adjust the values for more/less shadow */
 }
