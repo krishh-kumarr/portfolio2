@@ -1,7 +1,7 @@
 import React from 'react';
 import profileImage from './assets/profile.jpg'; // Update with your actual image path
 import { FlipWords } from './ui/flip-words'; // Ensure this path is correct
-import Typewriter from 'typewriter-effect'; // Import the typewriter effect
+import Typewriter from 'react-typewriter-effect'; // Import the typewriter effect
 import codingGif from './assets/coding.gif'; // Add your GIFs
 import teamWorkGif from './assets/teamwork.gif';
 import learningGif from './assets/learning.gif';
